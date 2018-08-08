@@ -3,7 +3,7 @@
 def least_coins(cents)
   
   #Code your answer here!
-  cents = cents.get.chomp
+  cents = get.chomp
   remainder = cents 
   
   quarter = cents / 25
