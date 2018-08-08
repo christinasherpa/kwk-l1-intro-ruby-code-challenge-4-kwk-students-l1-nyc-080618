@@ -17,7 +17,7 @@ def least_coins(cents)
   
   puts nickel 
   
-  return total_coins = {:quarters => quarter, :dimes => dime, :nickels => nickel, :pennies => penny}
+  puts total_coins = {:quarters => quarter, :dimes => dime, :nickels => nickel, :pennies => penny}
 
 
 
