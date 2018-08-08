@@ -18,6 +18,8 @@ def least_coins(cents)
   
   return total_coins = {:quarters => quarter, :dimes => dime, :nickels => nickel, :pennies => penny}
 
+puts nickel 
+
 end
 
 least_coins (93)
