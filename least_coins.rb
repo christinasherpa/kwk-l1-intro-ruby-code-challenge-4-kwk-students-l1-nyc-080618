@@ -24,4 +24,4 @@ puts add_coins = quarter + dime + nickel + penny
 
 end
 
-least_coins (93)
+least_coins (cents)
