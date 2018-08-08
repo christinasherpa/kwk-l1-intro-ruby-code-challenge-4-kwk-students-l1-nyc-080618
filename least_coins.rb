@@ -15,10 +15,11 @@ def least_coins(cents)
   penny = remainder / 1
   remainder = remainder % 1
   
+  puts nickel 
   
   return total_coins = {:quarters => quarter, :dimes => dime, :nickels => nickel, :pennies => penny}
 
-puts nickel 
+
 
 end
 
