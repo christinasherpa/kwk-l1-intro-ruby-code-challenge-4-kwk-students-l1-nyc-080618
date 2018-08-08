@@ -3,7 +3,7 @@
 def least_coins(cents)
   
   #Code your answer here!
-  cents = get.chomp
+  
   remainder = cents 
   
   quarter = cents / 25
@@ -17,11 +17,11 @@ def least_coins(cents)
   
    nickel 
   
-  puts total_coins = {:quarters => quarter, :dimes => dime, :nickels => nickel, :pennies => penny}
+  return total_coins = {:quarters => quarter, :dimes => dime, :nickels => nickel, :pennies => penny}
 
-puts add_coins = quarter + dime + nickel + penny
+return add_coins = quarter + dime + nickel + penny
 
 
 end
 
-least_coins (cents)
+least_coins (93)
